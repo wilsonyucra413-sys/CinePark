@@ -1,0 +1,20 @@
+# Carpetas de compilación de .NET
+**/bin/
+**/obj/
+
+# Archivos y carpetas del editor de código
+.vs/
+.vscode/
+
+# Archivos de configuración de usuario
+*.user
+*.userosscache
+
+# Archivos de configuración locales que no deben ir a producción
+**/appsettings.Development.json
+**/launchSettings.json
+
+# El propio archivo Dockerfile y el .dockerignore no necesitan copiarse a sí mismos
+Dockerfile
+.dockerignore
+docker-compose.yml
